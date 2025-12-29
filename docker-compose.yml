@@ -4,7 +4,7 @@ services:
     ports:
       - "3001:3001"
     environment:
-      - SCREENSHOT_URL=${SCREENSHOT_URL:-https://www.bbc.co.uk/news}
+      - SCREENSHOT_URL=${SCREENSHOT_URL:-http://192.168.2.43:5001}
       - KINDLE_WIDTH=${KINDLE_WIDTH:-1072}
       - KINDLE_HEIGHT=${KINDLE_HEIGHT:-1448}
       - PORT=3001
